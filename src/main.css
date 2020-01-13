@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.me {
+  text-decoration: underline;
+  font-size: 15px;
+  color: #112;
+  display: block;
+  margin-top: 25px;
+}
+
+.mui--text-dark-secondary + div {
+  margin-bottom: 20px;
+}
+
+.invalid, .error {
+  color: red;
+}
+
+.listIdeas {
+  text-align: left;
+  max-width: 340px;
+}
+
+.listIdeas li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.btn-pos {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+}
+
+.modal {
+  max-width: 400px;
+  max-height: 320px;
+  margin: 50px auto;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.modal h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  color: #112;
+  margin: 0;
+}
+
+.modal-body {
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+
+
+
+/**
+ * Sidebar CSS
+ */
+
+#sidebar {
+  background-color: #E57373;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}
+
+
+/**
+ * Content CSS
+ */
+@media (min-width: 768px) {
+  #content {
+    margin-left: 180px;
+  }
+}
